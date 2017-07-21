@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bent Creek Ceramics - newsletter</title>
+  </head>
+  <body>
+    <header>
+      <img src="/Users/eligarcia/Desktop/Development/week1/optimized/bent-creek-logo.png" alt="">
+      <nav id="main-navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Newsletter</a>
+      </nav>
+      </header>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+    var nameInput = document.getElementById('nameInput');
+    var emailInput = document.getElementById('emailInput');
+    var signupButton = document.getElementById('signupButton');
+    signupButton.addEventListener('click', function(e) {
+      var nameVal = nameInput.value;
+      var emailVal = emailInput.value;
+      if (nameVal && emailVal) {
+        alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+        nameInput.value = "";
+        emailInput.value = "";
+      } else {
+        alert('We would love for you to sign up, please provide both your name and email address.');
+      }
+    });
+  </script>
+
+  </body>
+</html>
