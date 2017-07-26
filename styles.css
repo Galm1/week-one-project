@@ -231,15 +231,23 @@ td{
 
 #button{
   background-color: #968772;
+  height: 40px;
+  width: 85px;
+  border: 0;
+  border-style: solid;
 
 }
 
 #nameinput{
   width: 90%;
   height: 17px;
+  border: 0;
+  border-bottom: 2px solid black;
 }
 
 #emailinput{
   width: 90%;
   height: 17px;
+  border: 0;
+  border-bottom: 2px solid black;
 }
