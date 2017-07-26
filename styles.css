@@ -59,6 +59,15 @@ header{
   height: 70px;
 }
 
+footer{
+  background-color: #131511;
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+
+}
+
 .abouth{
   text-align: center;
   margin: 1px;
@@ -193,6 +202,10 @@ td{
   border-collapse: collapse;
 }
 
+.boldrow{
+  background-color: #f2eadc;
+}
+
 .nlbody{
   background-image: url(/Users/eligarcia/Desktop/Development/week1/optimized/background-2.jpg);
   background-size: 100%;
@@ -212,4 +225,21 @@ td{
   text-align: center;
   justify-content: center;
   margin: 0;
+  display: inline-block;
+  padding: 15px;
+}
+
+#button{
+  background-color: #968772;
+
+}
+
+#nameinput{
+  width: 90%;
+  height: 17px;
+}
+
+#emailinput{
+  width: 90%;
+  height: 17px;
 }
