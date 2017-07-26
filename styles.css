@@ -164,13 +164,52 @@ blockquote{
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
   color: white;
   height: 300px;
   font-size: 4em;
 }
 
-.clearfix {
+.clearfix{
   overflow: auto;
   zoom: 1;
+}
+
+table{
+  border: 1px solid #131511;
+  border-collapse: collapse;
+}
+
+th{
+  border: 1px solid #131511;
+  border-collapse: collapse;
+}
+
+td{
+  border: 1px solid #131511;
+  border-collapse: collapse;
+}
+
+.nlbody{
+  background-image: url(/Users/eligarcia/Desktop/Development/week1/optimized/background-2.jpg);
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.nlcontent{
+  background: white;
+  align-items: center;
+  flex-direction: column;
+  display: block;
+  height: 275px;
+  font-size: 1em;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
 }
